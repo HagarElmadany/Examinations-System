@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#e3d5ec;
+}
+.headers{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container {
+    background:#ffffff;
+    width: 35%;
+    height: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(59, 30, 84, 0.4);
+    text-align: center;
+}
+h3,.questionCounter{
+    color: #3B1E54;
+}
+
+#timerBar {
+    width: 100%;
+    background-color: #EEEEEE;
+}  
+#Bar {
+    height: 10px;
+    background-color: #9B7EBD;
+}
+
+#answersContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.answerBtn{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    background-color: #D4BEE4;
+    color: #3B1E54;
+    box-shadow: 0 0 3px rgb(59, 30, 84, 0.3);
+    font-weight: bold;
+    cursor: pointer;
+}
+.answerBtn:hover{
+    background-color: #9B7EBD;
+}
+
+
+#nextBtn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #3B1E54;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#nextBtn:disabled {
+    background:#EEEEEE;
+    cursor: default;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.circleContainer {
+    position: relative;
+    width: 150px;
+    height: 150px;
+} 
+
+.circleBar { 
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    border: 10px solid #e3d5ec;
+    position: relative;
+    box-sizing: border-box;
+}
+
+  
+#percentageScore {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    font-size: 32px;
+    font-weight: bold;
+    color: #3B1E54;
+}
+
+
+.questionFont {
+    font-family: 'Playwrite CO Guides' , serif;
+  }
+  
+  

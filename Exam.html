@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exam</title>
+        <link rel="stylesheet" href="Exam.css">
+        <script src="Examfun.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+             <div class="headers">
+            <h3>Simple Examinations System</h3>
+            <div id="questionCounter"> 1/10</div>
+             </div>
+            <div id="timerContainer">
+                <div id="timerBar">
+                    <div id="Bar"></div>
+                </div>
+               <div id="timer">Time: 1:00</div> 
+            </div>
+            <div id="questionContainer">
+            </div>
+            <button id="nextBtn" disabled>Next</button>
+
+            <div id="result" style="display: none;">
+                <div class="resultContainer">
+                <h2>Your Result</h2>
+                <div class="circleContainer">
+                    <div id="circle" class="circleBar"></div>
+                    <p id="percentageScore"></p>
+                </div>
+                <p id="score"></p>
+                </div>     
+            </div>
+
+        </div>
+
+     
+
+        
+    </body>
+</html>
